@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.4;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+#timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 6px;
+}
+
+ruby rt.hidden {
+  display: none;
+}
+
+#results {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.explanation-controls {
+  margin-top: 14px;
+}
+
+#explanations {
+  margin-top: 12px;
+  background: #f9f9f9;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.explanation-card {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.explanation-card:last-child {
+  border-bottom: none;
+}
+
+.correct {
+  color: #0a7a2f;
+}
+
+.incorrect {
+  color: #b42318;
+}
+
+.muted {
+  color: #666;
+}

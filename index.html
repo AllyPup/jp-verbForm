@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JLPT Verb Practice</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Verb Form Practice</h1>
+
+    <div class="controls">
+      <select id="formSelect">
+        <option value="masu">ます form</option>
+        <option value="te">て form</option>
+        <option value="ta">た form</option>
+        <option value="nai">ない form</option>
+        <option value="potential">potential form</option>
+      </select>
+
+      <button id="startBtn">Start Round</button>
+      <button id="toggleFurigana">Reading Support: Off</button>
+    </div>
+
+    <div id="timer">10:00</div>
+
+    <table id="verbTable">
+      <thead>
+        <tr>
+          <th>Kanji</th>
+          <th>Reading</th>
+          <th>Answer</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <button id="checkBtn">Check Answers</button>
+
+    <div id="results"></div>
+
+    <div class="explanation-controls">
+      <label>
+        <input type="checkbox" id="missedOnlyToggle" />
+        Show only missed answers
+      </label>
+    </div>
+
+    <div id="explanations"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
