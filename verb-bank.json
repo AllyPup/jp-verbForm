@@ -1,0 +1,176 @@
+[
+  {
+    "kanji": "食べる",
+    "reading": "たべる",
+    "type": "ichidan",
+    "level": "N5"
+  },
+  {
+    "kanji": "見る",
+    "reading": "みる",
+    "type": "ichidan",
+    "level": "N5"
+  },
+  {
+    "kanji": "起きる",
+    "reading": "おきる",
+    "type": "ichidan",
+    "level": "N5"
+  },
+  {
+    "kanji": "寝る",
+    "reading": "ねる",
+    "type": "ichidan",
+    "level": "N5"
+  },
+  {
+    "kanji": "開ける",
+    "reading": "あける",
+    "type": "ichidan",
+    "level": "N5"
+  },
+  {
+    "kanji": "閉める",
+    "reading": "しめる",
+    "type": "ichidan",
+    "level": "N5"
+  },
+  {
+    "kanji": "教える",
+    "reading": "おしえる",
+    "type": "ichidan",
+    "level": "N4"
+  },
+  {
+    "kanji": "借りる",
+    "reading": "かりる",
+    "type": "ichidan",
+    "level": "N4"
+  },
+  {
+    "kanji": "書く",
+    "reading": "かく",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "聞く",
+    "reading": "きく",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "話す",
+    "reading": "はなす",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "待つ",
+    "reading": "まつ",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "読む",
+    "reading": "よむ",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "遊ぶ",
+    "reading": "あそぶ",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "死ぬ",
+    "reading": "しぬ",
+    "type": "godan",
+    "level": "N4"
+  },
+  {
+    "kanji": "取る",
+    "reading": "とる",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "買う",
+    "reading": "かう",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "泳ぐ",
+    "reading": "およぐ",
+    "type": "godan",
+    "level": "N4"
+  },
+  {
+    "kanji": "急ぐ",
+    "reading": "いそぐ",
+    "type": "godan",
+    "level": "N4"
+  },
+  {
+    "kanji": "持つ",
+    "reading": "もつ",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "立つ",
+    "reading": "たつ",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "帰る",
+    "reading": "かえる",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "入る",
+    "reading": "はいる",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "座る",
+    "reading": "すわる",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "行く",
+    "reading": "いく",
+    "type": "godan",
+    "level": "N5"
+  },
+  {
+    "kanji": "する",
+    "reading": "する",
+    "type": "suru",
+    "level": "N5"
+  },
+  {
+    "kanji": "勉強する",
+    "reading": "べんきょうする",
+    "type": "suru",
+    "level": "N5"
+  },
+  {
+    "kanji": "運動する",
+    "reading": "うんどうする",
+    "type": "suru",
+    "level": "N4"
+  },
+  {
+    "kanji": "来る",
+    "reading": "くる",
+    "type": "kuru",
+    "level": "N5"
+  }
+]
