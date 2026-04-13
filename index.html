@@ -1,93 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JLPT Verb Form Practice</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="page-shell">
-    <header class="hero">
-      <div>
-        <p class="eyebrow">JLPT N5 / N4 practice</p>
-        <h1>Verb Form Practice</h1>
-        <p class="hero-copy">
-          Write the requested verb form in the answer cell. Hiragana and kanji answers are both accepted.
-        </p>
-      </div>
-    </header>
-
-    <main class="app-card">
-      <section class="controls">
-        <label>
-          Target form
-          <select id="formSelect">
-            <option value="masu">ます form</option>
-            <option value="te">て form</option>
-            <option value="ta">た form</option>
-            <option value="nai">ない form</option>
-            <option value="potential">potential form</option>
-          </select>
-        </label>
-
-        <label>
-          Round size
-          <select id="roundSizeSelect">
-            <option value="20">20</option>
-            <option value="30" selected>30</option>
-            <option value="40">40</option>
-          </select>
-        </label>
-
-        <div class="button-row">
-          <button id="startBtn">Start Round</button>
-          <button id="toggleFurigana">Reading Support: Off</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JLPT Verb Form Practice</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">JLPT N5 / N4 practice</p>
+          <h1>Verb Form Practice</h1>
+          <p class="hero-copy">
+            Write the requested verb form in the answer cell. Hiragana and kanji
+            answers are both accepted.
+          </p>
         </div>
-      </section>
-
-      <section class="status-row">
-        <div class="timer-wrap">
-          <span class="status-label">Time left</span>
-          <div id="timer">10:00</div>
+        <div class="feedback-top">
+          <a
+            href="https://forms.gle/oFdkXFKbi89yAgRB8"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="feedback-link"
+          >
+            Leave Feedback
+          </a>
         </div>
-        <div class="bank-wrap">
-          <span class="status-label">Verb bank</span>
-          <div id="bankStatus">Loading bundled verb bank…</div>
-        </div>
-      </section>
+      </header>
 
-      <section class="table-wrap">
-        <table id="verbTable">
-          <thead>
-            <tr>
-              <th>Verb</th>
-              <th>Answer</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </section>
-
-      <section class="action-row">
-        <button id="checkBtn">Check Answers</button>
-      </section>
-
-      <section class="results-panel">
-        <div id="results"></div>
-
-        <div class="explanation-controls">
+      <main class="app-card">
+        <section class="controls">
           <label>
-            <input type="checkbox" id="missedOnlyToggle" />
-            Show only missed answers
+            Target form
+            <select id="formSelect">
+              <option value="masu">ます form</option>
+              <option value="te">て form</option>
+              <option value="ta">た form</option>
+              <option value="nai">ない form</option>
+              <option value="potential">potential form</option>
+            </select>
           </label>
-        </div>
 
-        <div id="explanations"></div>
-      </section>
-    </main>
-  </div>
+          <label>
+            Round size
+            <select id="roundSizeSelect">
+              <option value="20">20</option>
+              <!-- <option value="30" selected>30</option>
+            <option value="40">40</option> -->
+            </select>
+          </label>
 
-  <script src="app.js"></script>
-</body>
+          <div class="button-row">
+            <button id="startBtn">Start Round</button>
+            <button id="toggleFurigana">Reading Support: Off</button>
+          </div>
+        </section>
+
+        <section class="status-row">
+          <div class="timer-wrap">
+            <span class="status-label">Time left</span>
+            <div id="timer">10:00</div>
+          </div>
+          <div class="bank-wrap">
+            <span class="status-label">Verb bank</span>
+            <div id="bankStatus">Loading bundled verb bank…</div>
+          </div>
+        </section>
+
+        <section class="table-wrap">
+          <table id="verbTable">
+            <thead>
+              <tr>
+                <th>Verb</th>
+                <th>Answer</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </section>
+
+        <section class="action-row">
+          <button id="checkBtn">Check Answers</button>
+        </section>
+
+        <section class="results-panel">
+          <div id="results"></div>
+
+          <div class="explanation-controls">
+            <label>
+              <input type="checkbox" id="missedOnlyToggle" />
+              Show only missed answers
+            </label>
+          </div>
+
+          <div id="explanations"></div>
+          <div class="feedback-bottom">
+            <a
+              href="https://forms.gle/oFdkXFKbi89yAgRB8"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="feedback-link secondary-link"
+            >
+              Found an issue or have a suggestion? Let us know →
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
